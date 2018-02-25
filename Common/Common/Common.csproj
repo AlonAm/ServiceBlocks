@@ -55,8 +55,10 @@
     <Compile Include="Serializers\StructSerializer.cs" />
     <Compile Include="Threading\Counter.cs" />
     <Compile Include="Threading\ITaskWorker.cs" />
+    <Compile Include="Threading\SafeMinMaxValue.cs" />
     <Compile Include="Threading\SpinWaitHelper.cs" />
     <Compile Include="Threading\TaskWorker.cs" />
+    <Compile Include="Utilities\TimerResolution.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
